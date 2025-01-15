@@ -44,7 +44,7 @@ export const database = {
             name: "Darnell",
             species: "Psyduck",
             length: 31,
-            location: "Japan",
+            location: "Tokyo",
             diet: "Cannibal",
             image: "https://archives.bulbagarden.net/media/upload/thumb/3/3f/0054Psyduck.png/800px-0054Psyduck.png"
         },
@@ -52,9 +52,55 @@ export const database = {
             name: "Kahuna",
             species: "Catfish",
             length: 20,
-            location: "My Backyard",
+            location: "Nashville, TN",
             diet: "Omnivore",
             image: "https://upload.wikimedia.org/wikipedia/commons/9/94/Ameiurus_melas_by_Duane_Raver.png"
+        }
+    ],
+    tips: [
+        {
+            topic: "Water Temperature",
+            text: "Maintain a consistent water temperature between 75-80°F (24-27°C) for most tropical fish."
+        },
+        {
+            topic: "Cure for Homelessness",
+            text: "Consider buying a house."
+        },
+        {
+            topic: "Two Meals in One",
+            text: "You can eat water by freezing it first."
+        }
+    ],
+    locations: [
+        {
+            name: "Great Barrier Reef",
+            country: "Australia",
+            description: "The Great Barrier Reef is the world's largest coral reef system, supporting a diverse array of marine life."
+        },
+        {
+            name: "Florida",
+            country: "USA",
+            description: "Florida is a state in the Southeastern region of the United States. It borders the Gulf of Mexico to the west."
+        },
+        {
+            name: "Amazon River",
+            country: "South America",
+            description: "The Amazon River in South America is the largest river by discharge volume of water in the world, and the longest or second-longest river system in the world, a title which is disputed with the Nile."
+        },
+        {
+            name: "e v e r y w h e r e",
+            country: "???",
+            description: "d͙̅̀o̵̸̵͙͙͂͋̃͛̓̅̂̊̆̿̀͛͟ n̏͌_̴̠̲͙̩̟̯̯͈͉ͮ̎̌ͣ͊̊ͯ̊͐̕͢͟͠o̦̣̭̓ͪͧ͢͝t͓̪̥͈͕͎̲̺̭͊̅ͬ̀̃͒͢͡ b̢͈̈͑͊͜e͕̦͈͕͈̫͆ͣ̊̀̾̾̇̅͟͝͝_̶̴̙̼̝͍̠͔̱͌̀̎̏̆͟ a̢͖̓f̯̣̒ͧ͑͢͟r̡̮̖̦͇̰̘̺̹̝̯̃ͪ̀̑̒͂ͮ͑̄͋a̶̸̜̞͖̯͈͐͛̍̚͘͜͞i̴̛͎̲̦ͣ͗̒ͯ̌ͫ̀̓ͥ̓d̵̢̛͓̗̼̫̀͐̅̐̀̀̂̈́̆ͤ̀ͨͪ̌ͭ̆̚̕͢͠"
+        },
+        {
+            name: "Tokyo",
+            country: "Japan",
+            description: "Tokyo, officially the Tokyo Metropolis, is the capital of Japan. Fish are also there sometimes."
+        },
+        {
+            name: "Nashville, TN",
+            country: "USA",
+            description: "This fish dwells in a small hole behind my house."
         }
     ]
 }
