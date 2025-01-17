@@ -1,0 +1,15 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+
+main {
+    /* display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: auto 1fr; */
+    gap: 20px;
+    padding: 20px;
+    font-family: 'Baskervville', serif;
+    background-color: black;
+}

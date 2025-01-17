@@ -1,0 +1,133 @@
+header {
+  background-color: #4CAF50;
+  text-align: center;
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.plzWerk {
+  background-color: plum;
+  border-radius: 10px;
+}
+
+#sectionsBox {
+  display: flex;
+  flex-direction: column;
+  max-width: 60%;
+  gap: 10px;
+}
+
+#erryThang {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.subTitle {
+  color: red;
+  font-size: 30px;
+  text-align: center;
+  background-color: gold;
+  border-radius: 10px;
+}
+
+   #fishList {
+    display: grid;
+    grid-template-rows: (4, 1fr);
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    padding: 10px;
+    margin: 30px;
+    overflow: hidden;
+    transition: transform 0.3s ease;
+    border-radius: 10px;
+  }
+
+  #fishList article {
+    background-color: rgb(75, 35, 77);
+    text-align: center;
+    padding: 20px;
+  }
+
+  #fishList img {
+    width: 100%;
+    max-width: 350px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+  }
+
+  #fishList img:hover {
+    transform: translateY(-5px);
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.6);
+  }
+
+  .data {
+    font-size: 14px;
+    color: white;
+    line-height: 1.5;
+    list-style-type: none;
+  }
+
+  #tipList {
+    background-color: darkcyan;
+    padding: 10px;
+    overflow: hidden;
+    margin: 30px;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+    height: 50vh;
+  }
+
+  #tipList.tips {
+    width: 100%;
+    max-width: 350px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+  }
+
+  .tips:hover {
+    transform: translateY(-5px);
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.6);
+  }
+
+  .tip {
+    font-size: 14px;
+    color: white;
+    line-height: 1.5;
+    text-align: center;
+    border-radius: 10px;
+  }
+
+  #locationList {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    background-color: rgb(108, 63, 138);
+    margin: 30px;
+    gap: 10px;
+    padding: 10px;
+    overflow: hidden;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+  }
+
+  #locationList.locations {
+    width: 100%;
+    max-width: 350px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+  }
+
+  .locations:hover {
+    transform: translateY(-5px);
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.6);
+  }
+
+  .location {
+    font-size: 14px;
+    color: white;
+    line-height: 1.5;
+    text-align: center;
+  }
