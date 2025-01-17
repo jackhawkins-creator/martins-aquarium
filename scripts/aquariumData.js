@@ -55,7 +55,87 @@ export const database = {
             location: "Nashville, TN",
             diet: "Omnivore",
             image: "https://upload.wikimedia.org/wikipedia/en/3/30/Trout_Mask_Replica.png"
-        }
+        },
+        {
+            name: "Goldie",
+            species: "Goldfish",
+            length: 5,
+            location: "Freshwater",
+            diet: "Omnivore",
+            image: "https://i.natgeofe.com/n/18708334-6fce-40b5-ade6-a7e2db7035f2/01-goldfish-nationalgeographic_1567132.jpg"
+          },
+          {
+            name: "Bubbles",
+            species: "Betta",
+            length: 1,
+            location: "Southeast Asia",
+            diet: "Carnivore",
+            image: "https://www.thesprucepets.com/thmb/7YGQUU_FYAd2XCNmnW_9_jKcDZU=/5762x0/filters:no_upscale():strip_icc()/siamese-fighting-fish-bettas-1378308-hero-f459084da1414308accde7e21001906c.jpg"
+          },
+          {
+            name: "Finn",
+            species: "Shark",
+            length: 6,
+            location: "Ocean",
+            diet: "Carnivore",
+            image: "https://example.com/images/finn.jpg"
+          },
+          {
+            name: "Splash",
+            species: "Guppy",
+            length: 2,
+            location: "Freshwater",
+            diet: "Omnivore",
+            image: "https://example.com/images/splash.jpg"
+          },
+          {
+            name: "Marlin",
+            species: "Marlin",
+            length: 8,
+            location: "Atlantic Ocean",
+            diet: "Carnivore",
+            image: "https://example.com/images/marlin.jpg"
+          },
+          {
+            name: "Bubbles",
+            species: "Angelfish",
+            length: 4,
+            location: "Coral Reef",
+            diet: "Omnivore",
+            image: "https://example.com/images/bubbles2.jpg"
+          },
+          {
+            name: "Ziggy",
+            species: "Zebrafish",
+            length: 3,
+            location: "Freshwater",
+            diet: "Omnivore",
+            image: "https://example.com/images/ziggy.jpg"
+          },
+          {
+            name: "Spike",
+            species: "Pufferfish",
+            length: 5,
+            location: "Tropical Waters",
+            diet: "Carnivore",
+            image: "https://example.com/images/spike.jpg"
+          },
+          {
+            name: "Coral",
+            species: "Coral Trout",
+            length: 7,
+            location: "Great Barrier Reef",
+            diet: "Carnivore",
+            image: "https://example.com/images/coral.jpg"
+          },
+          {
+            name: "Flash",
+            species: "Swordfish",
+            length: 9,
+            location: "Atlantic Ocean",
+            diet: "Carnivore",
+            image: "https://example.com/images/flash.jpg"
+          }
     ],
     tips: [
         {
